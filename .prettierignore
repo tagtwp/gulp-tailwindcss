@@ -4,6 +4,7 @@
 # Negate the above pattern for CSS files in the `tailwind` folder and for
 # all JavaScript files:
 !src/assets/tcss/**/*.css
+!src/assets/css/**/*.css
 !*.js
 
 # Ignore minified JavaScript:

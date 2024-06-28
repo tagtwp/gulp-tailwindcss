@@ -1,10 +1,17 @@
 body {
-	background: var(--color__background-body);
+	font-family: var(--font-main);
+	font-weight: var(--font-main-weight);
+	letter-spacing: var(--font-main-letter-spacing);
+	text-transform: var(--font-main-text-transform);
+	font-style: var(--font-main-style);
+	line-height: var(--font-main-line-height);
+	background: var(--color-warm-gray-1);
+	color: var(--color-black);
 }
 button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
 	color: var(--color-black);
 	&:hover {
 		border-color: transparent;

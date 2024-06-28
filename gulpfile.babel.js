@@ -17,6 +17,8 @@ const autoprefixer = require('autoprefixer')
 const replace = require('gulp-replace')
 const gulpTerser = require('gulp-terser')
 const uglify = require('gulp-uglify')
+const plumber = require('gulp-plumber')
+const notify = require('gulp-notify')
 var concat = require('gulp-concat')
 const fs = require('node:fs')
 
@@ -79,6 +81,14 @@ const paths = {
 // Task for compiling our CSS files using PostCSS
 function tcss(callback) {
 	return src(paths.src.tcss) // read .css files from ./src/ folder
+		.pipe(
+			plumber(
+				notify.onError({
+					title: 'SCSS',
+					message: 'Error: <%= error.message %>'
+				})
+			)
+		)
 		.pipe(
 			postcss([
 				require('postcss-import-ext-glob'),
