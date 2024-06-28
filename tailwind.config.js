@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: [
-		'./src/**/*.{html,js}',
-		'node_modules/preline/dist/*.js',
-	],
+	content: ['./src/**/*.{html,js}', 'node_modules/preline/dist/*.js'],
 	darkMode: 'class', // or 'media' or 'class'
 	theme: {
 		screens: {
@@ -19,11 +16,11 @@ module.exports = {
 			xl: '1280px',
 			// => @media (min-width: 1200px) { ... }
 
-			'2xl': '1296px',
+			'2xl': '1296px'
 			// => @media (min-width: 1400px) { ... }
 		},
 		container: {
-			center: true,
+			center: true
 			// padding: '16px',
 		},
 		// Extend the default Tailwind theme.
@@ -50,23 +47,23 @@ module.exports = {
 				blue: {
 					DEFAULT: 'var(--color-blue-1)',
 					2: 'var(--color-blue-2)',
-					3: 'var(--color-blue-3)',
+					3: 'var(--color-blue-3)'
 				},
 				'gray-scale': {
 					DEFAULT: 'var(--color-gray-scale-1)',
 					2: 'var(--color-gray-scale-2)',
-					3: 'var(--color-gray-scale-3)',
+					3: 'var(--color-gray-scale-3)'
 				},
 				dark: {
 					DEFAULT: 'var(--color-dark-1)',
 					2: 'var(--color-dark-2)',
 					3: 'var(--color-dark-3)',
-					4: 'var(--color-dark-4)',
+					4: 'var(--color-dark-4)'
 				},
 				'warm-gray': {
 					DEFAULT: 'var(--color-warm-gray-1)',
 					2: 'var(--color-warm-gray-2)',
-					3: 'var(--color-warm-gray-3)',
+					3: 'var(--color-warm-gray-3)'
 				},
 				white: 'var(--color-white)',
 				black: 'var(--color-black)',
@@ -83,12 +80,11 @@ module.exports = {
 				'light-green': 'var(--color-light-green)',
 				'blue-neon': 'var(--color-blue-neon)',
 				purple: 'var(--color-purple)',
-				'contain-secondary-inverted':
-					'var(--color-contain-secondary-invert)',
+				'contain-secondary-inverted': 'var(--color-contain-secondary-invert)'
 			},
 			fontFamily: {
 				main: 'var(--font-main)',
-				serif: ['Merriweather', 'serif'],
+				serif: ['Merriweather', 'serif']
 			},
 			boxShadow: {
 				input: '0px 7px 20px rgba(0, 0, 0, 0.03)',
@@ -98,14 +94,12 @@ module.exports = {
 				testimonial: '0px 10px 20px 0px rgba(92, 115, 160, 0.07)',
 				'testimonial-btn': '0px 8px 15px 0px rgba(72, 72, 138, 0.08)',
 				1: '0px 1px 3px 0px rgba(166, 175, 195, 0.40)',
-				2: '0px 5px 12px 0px rgba(0, 0, 0, 0.10)',
-			},
-		},
+				2: '0px 5px 12px 0px rgba(0, 0, 0, 0.10)'
+			}
+		}
 	},
 	variants: {
-		extend: {},
+		extend: {}
 	},
-	plugins: [
-		require('preline/plugin'),
-	],
-};
+	plugins: [require('preline/plugin')]
+}
