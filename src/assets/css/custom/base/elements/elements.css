@@ -1,0 +1,17 @@
+body {
+	background: var(--color__background-body);
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	color: var(--color-black);
+	&:hover {
+		border-color: transparent;
+	}
+
+	&:active,
+	&:focus {
+		border-color: transparent;
+	}
+}

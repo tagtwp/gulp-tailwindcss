@@ -1,0 +1,17 @@
+
+/* src/css/styles.css */
+
+/*@import './custom/fonts.css';*/
+
+@import './custom/abstracts/abstracts.css';
+
+@import 'tailwindcss/base';
+@import './custom/base/base.css';
+
+@import 'tailwindcss/components';
+@import './custom/components/components.css';
+
+@import 'tailwindcss/utilities';
+@import './custom/utilities/utilities.css';
+
+/* Your custom styles go here */

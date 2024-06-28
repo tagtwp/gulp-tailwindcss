@@ -1,0 +1,32 @@
+/*elements*/
+body {
+	background: var(--color__background-body);
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	color: var(--color-black);
+	&:hover {
+		border-color: transparent;
+	}
+
+	&:active,
+	&:focus {
+		border-color: transparent;
+	}
+}
+/*typography*/
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: var(--color__text-main);
+	font-family: var(--font__main);
+	font-size: 1rem;
+	line-height: var(--font__line-height-body);
+}
+@layer "headings.css";
+@layer "copy.css";

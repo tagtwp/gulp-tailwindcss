@@ -1,0 +1,51 @@
+:root {
+	/* font */
+	--font-main: Play, sans-serif;
+	--font-main-weight: normal;
+	--font-main-letter-spacing: 0;
+	--font-main-text-transform: none;
+	--font-main-text-decoration: none;
+	--font-main-style: normal;
+	--font-main-line-height: 1.8;
+
+	--font-heading: Play, sans-serif;
+	--font-heading-weight: bold;
+	--font-heading-letter-spacing: 0;
+	--font-heading-text-transform: none;
+	--font-heading-text-decoration: none;
+	--font-heading-style: normal;
+	--font-heading-line-height: 1.35;
+
+	--font-nav: Play, sans-serif;
+	--font-nav-weight: bold;
+	--font-nav-letter-spacing: 0;
+	--font-nav-text-transform: capitalize;
+	--font-nav-text-decoration: none;
+	--font-nav-style: normal;
+	--font-nav-line-height: 1.68;
+
+	--font-button: Play, sans-serif;
+	--font-button-weight: bold;
+	--font-button-letter-spacing: 0;
+	--font-button-text-transform: uppercase;
+	--font-button-text-decoration: none;
+	--font-button-style: normal;
+	--font-button-line-height: 1.58;
+
+	--font-field: Play, sans-serif;
+	--font-field-weight: normal;
+	--font-field-letter-spacing: 0;
+	--font-field-text-transform: none;
+	--font-field-text-decoration: none;
+	--font-field-style: normal;
+	--font-field-line-height: 1.58;
+
+	--font-meta: Play, sans-serif;
+	--font-meta-size: 13px;
+	--font-meta-weight: normal;
+	--font-meta-letter-spacing: 0;
+	--font-meta-text-transform: none;
+	--font-meta-text-decoration: none;
+	--font-meta-style: normal;
+	--font-meta-line-height: 1.58;
+}

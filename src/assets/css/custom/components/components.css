@@ -1,0 +1,5 @@
+@import-glob './**/*.css';
+body{
+	--tw-bg-opacity: 1;
+	background-color: rgb(244 114 182 / var(--tw-bg-opacity))
+}
