@@ -910,21 +910,21 @@ video {
 /*elements*/
 
 body {
-	font-family: var(--font-main);
-	font-weight: var(--font-main-weight);
-	letter-spacing: var(--font-main-letter-spacing);
-	text-transform: var(--font-main-text-transform);
-	font-style: var(--font-main-style);
-	line-height: var(--font-main-line-height);
-	background: var(--color-warm-gray-1);
-	color: var(--color-black);
+	font-family: var(--font__main);
+	font-weight: var(--font__main-weight);
+	letter-spacing: var(--font__main-letter-spacing);
+	text-transform: var(--font__main-text-transform);
+	font-style: var(--font__main-style);
+	line-height: var(--font__main-line-height);
+	background: var(--color__warm-gray-1);
+	color: var(--color__black);
 }
 
 button,
 input[type='button'],
 input[type='reset'],
 input[type='submit'] {
-	color: var(--color-black);
+	color: var(--color__black);
 	&:hover {
 		border-color: transparent;
 	}
