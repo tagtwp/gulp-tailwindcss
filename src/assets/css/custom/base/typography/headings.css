@@ -4,10 +4,10 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: var(--font-heading);
-	font-weight: var(--font-heading-weight);
-	letter-spacing: var(--font-heading-letter-spacing);
-	text-transform: var(--font-heading-text-transform);
-	font-style: var(--font-heading-style);
-	line-height: var(--font-heading-line-height);
+	font-family: var(--font__heading);
+	font-weight: var(--font__heading-weight);
+	letter-spacing: var(--font__heading-letter-spacing);
+	text-transform: var(--font__heading-text-transform);
+	font-style: var(--font__heading-style);
+	line-height: var(--font__heading-line-height);
 }

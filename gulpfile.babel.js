@@ -196,13 +196,13 @@ function syncReload(callback) {
 // }
 
 function watchTask() {
-	watch(paths.src.html, series(fileincludeTask, syncReload))
+	watch(paths.src.html, series(tcss, fileincludeTask, syncReload))
 	watch([paths.src.images, paths.src.fonts, paths.src.vendorJs], series(images, fonts, vendorJs))
 	watch([paths.src.tcss], series(tcss, syncReload)) // Add this line to watch tcss files
 }
 
 // Default Task Preview
-exports.default = series(fileincludeTask, browsersyncServe, watchTask)
+exports.default = series(tcss, fileincludeTask, browsersyncServe, watchTask)
 
 // Build Task for Dist
 exports.build = series(parallel(cleanDist), html, images, fonts, vendorJs, copyLibs, cleanTemp)
