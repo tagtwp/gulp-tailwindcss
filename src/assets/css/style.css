@@ -1298,6 +1298,10 @@ textarea {
 	height: 100%;
 }
 
+.h-\[200px\] {
+	height: 200px;
+}
+
 .min-h-0 {
 	min-height: 0px;
 }
@@ -1324,6 +1328,10 @@ textarea {
 
 .w-full {
 	width: 100%;
+}
+
+.w-\[200px\] {
+	width: 200px;
 }
 
 .min-w-0 {
@@ -1597,6 +1605,11 @@ textarea {
 
 .bg-white {
 	background-color: var(--color__white);
+}
+
+.bg-pink-500 {
+	--tw-bg-opacity: 1;
+	background-color: rgb(236 72 153 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-50 {
