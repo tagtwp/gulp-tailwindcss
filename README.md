@@ -1,6 +1,8 @@
 gulp-tailwindcss <a href="https://github.com/tagtwp/gulp-tailwindcss/stargazers"><img src="https://img.shields.io/github/stars/tagtwp/gulp-tailwindcss" alt="Stars Badge"/></a>
 === 
 
+Gulp with Tailwindcss for a quick development start. Automated build simplifies development, letting focus on quality code.
+
 Installation
 ---------------
 
