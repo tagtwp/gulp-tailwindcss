@@ -172,6 +172,13 @@ function cleanDist(callback) {
 	callback()
 }
 
+// function zipFiles(callback){
+// 	return src('dist/**/*')
+// 		.pipe(zip('dist.zip'))
+// 		.pipe(dest('dist'))
+// 	callback()
+// }
+
 // Browser Sync Serve
 function browsersyncServe(callback) {
 	browsersync.init({
@@ -217,3 +224,4 @@ exports.fileincludeTask = fileincludeTask
 exports.copyLibs = copyLibs
 exports.cleanTemp = cleanTemp
 exports.cleanDist = cleanDist
+// exports.zipFiles = zipFiles
