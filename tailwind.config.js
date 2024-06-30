@@ -88,7 +88,7 @@ module.exports = {
 				nav: 'var(--font__nav)',
 				button: 'var(--font__button)',
 				field: 'var(--font__field)',
-				meta: 'var(--font__meta)',
+				meta: 'var(--font__meta)'
 			},
 			boxShadow: {
 				input: '0px 7px 20px rgba(0, 0, 0, 0.03)',

@@ -1,0 +1,14 @@
+{
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/assets/css",
+    "gulpfile.babel.js",
+    "package.json",
+    "\\.DS_Store",
+    ".ecrc",
+    ".editorconfig",
+    "\\.md$",
+    "\\.php$"
+  ]
+}
