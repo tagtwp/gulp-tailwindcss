@@ -1634,6 +1634,10 @@ textarea {
 	text-align: center;
 }
 
+.font-nav {
+	font-family: var(--font__nav);
+}
+
 .text-2xl {
 	font-size: 1.5rem;
 	line-height: 2rem;
