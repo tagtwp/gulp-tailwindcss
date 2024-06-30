@@ -84,7 +84,11 @@ module.exports = {
 			},
 			fontFamily: {
 				main: 'var(--font__main)',
-				serif: ['Merriweather', 'serif']
+				heading: 'var(--font__heading)',
+				nav: 'var(--font__nav)',
+				button: 'var(--font__button)',
+				field: 'var(--font__field)',
+				meta: 'var(--font__meta)',
 			},
 			boxShadow: {
 				input: '0px 7px 20px rgba(0, 0, 0, 0.03)',
