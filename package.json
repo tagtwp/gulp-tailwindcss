@@ -11,7 +11,8 @@
 		"lint-fix:prettier": "npx prettier --write .",
 		"lint-fix": "run-p \"lint-fix:*\"",
 		"code": "editorconfig-checker",
-		"deploy": "gh-pages -d dist"
+		"clean": "gulp cleanDist && gulp cleanTemp",
+		"deploy": "gulp && gh-pages -d dist"
 	},
 	"keywords": [
 		"gulp",
